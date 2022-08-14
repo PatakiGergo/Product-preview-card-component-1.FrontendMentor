@@ -1,0 +1,161 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution { margin-top: 50px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+html {
+    font-family: 'Fraunces', serif;
+}
+
+body {
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+p {
+    font-size: 14px;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    
+
+}
+
+.product-box {
+    background-color: white;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    width: 600px;
+    height: 450px;
+    border-radius: 8px;
+
+}
+
+.parfume-image {
+    width: 300px;
+    border-radius: 8px 0px 0px 8px;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+
+    
+}
+
+.button {
+    display: flex;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    width: 240px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+
+}
+
+.price {
+    font-size: 31px;
+    color: hsl(158, 36%, 37%);
+    
+    
+}
+
+.prices {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    vertical-align: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 90px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 70px;
+}
+
+.parfume {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.old-price {
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+    padding-left: 15px;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 23px;
+}
+
+button:hover {
+    background-color: hsl(158, 34%, 27%);
+}
+
+.image-left {
+    height: 0;
+}
+
+.old-price {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description-container {
+    width: 80%;
+    
+}
+
+.title-container {
+    width: 75%;
+    margin-right: 20px;
+}
+
+.title {
+    line-height: 32px;
+}
+
+.parfume-container {
+    margin-right: 155px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    vertical-align: auto;
+    height: 30px;
+}
+
+.parfume {
+    margin-bottom: 10px;
+}
+
+.button-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.addto{
+    padding-left: 8px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+}
+
