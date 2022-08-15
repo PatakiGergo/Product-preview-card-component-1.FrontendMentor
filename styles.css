@@ -80,8 +80,6 @@ body {
 
 .prices {
     display: flex;
-    grid-template-columns: 1fr 1fr;
-    vertical-align: center;
     align-items: center;
     margin-left: 35px;
     margin-right: 90px;
@@ -113,9 +111,6 @@ button:hover {
     background-color: hsl(158, 34%, 27%);
 }
 
-.image-left {
-    height: 0;
-}
 
 .old-price {
     font-family: 'Montserrat', sans-serif;
@@ -129,18 +124,14 @@ button:hover {
 .title-container {
     width: 75%;
     margin-right: 20px;
-}
-
-.title {
     line-height: 32px;
 }
+
+
 
 .parfume-container {
     margin-right: 155px;
     margin-top: 30px;
-    display: flex;
-    align-items: flex-start;
-    vertical-align: auto;
     height: 30px;
 }
 
